@@ -1,0 +1,18 @@
+
+
+
+.menu-heading-div{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.menu-heading-div p{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    border-bottom: 2px solid;
+    text-shadow: 2px 2px grey;
+}

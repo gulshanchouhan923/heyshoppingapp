@@ -1,0 +1,125 @@
+.review-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 20px;
+}
+
+.order-details-heading{
+    margin: 20px;
+    border-bottom: 2px solid;
+}
+
+.order-details-heading p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+
+.order-image{
+    height: 130px;
+    width: 140px;
+}
+
+
+.order-image img{
+    height: 100%;
+    width: 100%;
+}
+.order-details-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.order-details{
+    margin: 0px 51px;
+}
+
+
+.product-review-main-container{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 10px;
+}
+
+.product-review-main-container p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.user-details-container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 20px;
+    padding: 20px 40px;
+    height: 237px;
+    width: 547px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+.heading-user-deatils{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.review-product-form-div{
+    margin: 20px;
+}
+
+
+.review-product-form-div form{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.review-product-form-div form input{
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px 20px;
+    margin: 11px 0px;
+    border-radius: 10px;
+}
+
+
+.review-product-form-div form button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.text-area-style{
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px 20px;
+    margin: 11px 0px;
+    border-radius: 10px;
+}

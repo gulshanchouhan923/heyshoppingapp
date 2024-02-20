@@ -1,0 +1,142 @@
+.shopping-cart{
+    margin: 20px 40px;
+    box-shadow: 2px 2px 2px 2px rgba(130, 129, 129, 0.821);
+    height: 700px;
+    background-color: #f4faf4;
+    overflow-y: scroll;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: sans-serif;
+    border-bottom: 2px solid;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+
+
+.delete-btn{
+    cursor: pointer;
+}
+
+
+.image{
+    height: 77px;
+    width: 114px;
+    margin: 7px 13px;
+    padding: 3px 4px;
+}
+
+
+.image img{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.description span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.total-price{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.total-ammount-div{
+    margin: 30px 158px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.total-amount{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+
+
+/* form section style */
+
+.checkout-form-div{
+    box-shadow: 2px 2px 2px 2px rgba(130, 129, 129, 0.821);
+    background-color: #f4faf4;
+    margin: 20px 40px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.checkout-form-div form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 40px;
+    justify-content: center;
+}
+
+.checkout-form-div h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.checkout-form-div form input{
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 10px 7px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+.submit-btn{
+    margin: 10px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.submit-btn button{
+
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #95cb95;
+    cursor: pointer;
+    height: 55px;
+    width: 250px;
+}
