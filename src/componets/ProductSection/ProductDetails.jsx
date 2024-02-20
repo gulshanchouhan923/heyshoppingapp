@@ -36,12 +36,11 @@ function ProductDetails() {
     }, 1500);
   };
 
-
   const emptyCartHandler = (cartID) => {
     setTimeout(() => {
       window.alert(`item ${cartID} already added in cart!!`);
     }, 1500);
-  }
+  };
 
   return (
     <Fragment>
@@ -87,40 +86,21 @@ function ProductDetails() {
             <div className="description">
               <h6> Description : {productData && productData.description} </h6>
             </div>
-
-
-
-            {cartItems && cartItems.map((item)=>{
-              if(JSON.stringify(item.id) !== id ){
-             return  ( <div className="btns">
-                <button
-                  onClick={() =>
-                    addToCartHandler(
-                      productData && productData.id,
-                      productData && productData.title,
-                      productData && productData.price,
-                      productData && productData.thumbnail
-                    )
-                  }
-                >
-                  {" "}
-                  add to cart
-                </button>
-              </div>)
-              }else{
-             return   (<div className="btns">
-                <button
-                  onClick={() =>
-                    emptyCartHandler(item.id)
-                  }
-                >
-                  {" "}
-                  add to cart
-                </button>
-              </div>)
-              }
-            })}
-       
+            <div className="btns">
+              <button
+                onClick={() =>
+                  addToCartHandler(
+                    productData && productData.id,
+                    productData && productData.title,
+                    productData && productData.price,
+                    productData && productData.thumbnail
+                  )
+                }
+              >
+                {" "}
+                add to cart
+              </button>
+            </div>
           </div>
         </div>
       </Fragment>
